@@ -104,6 +104,7 @@ body {
     padding: 20px;
     text-align: center;
     color: white;
+    height: 300px;
 }
 
 #about-container {
@@ -113,12 +114,14 @@ body {
     grid-template-rows:  auto auto;
     grid-gap: 15px;
     padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .about-box {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows:  150px 150px;
+    grid-template-rows:  300px 300px;
 }
 
 .about-box img {
@@ -128,7 +131,6 @@ body {
 
 .about-img-box1 {
     grid-row: span 2;
-    height: 300px;
 }
 
 .about-img-box2 {
@@ -143,7 +145,6 @@ body {
 .about-box-message {
     background-color: #ddbea9;
     padding: 15px;
-    border-radius: 10px;
     align-items: center;
     line-height: 1.8rem;
 }
